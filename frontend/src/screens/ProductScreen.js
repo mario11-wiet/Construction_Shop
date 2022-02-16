@@ -47,7 +47,7 @@ function ProductScreen() {
                                 <Row>
                                     <Col>Price:</Col>
                                     <Col>
-                                        <strong>${product.price}</strong>
+                                        <strong>${product.price} m<sup>2</sup></strong>
                                     </Col>
                                 </Row>
                             </ListGroup.Item>
