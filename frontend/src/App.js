@@ -8,7 +8,7 @@ import ProductScreen from './screens/ProductScreen';
 
 function App() {
   return (
-    <div style={{ minWidth:'250px'}}>
+    <div style={{ minWidth:'500px'}}>
       <BrowserRouter>
         <Header />
         <main className='py-3'>

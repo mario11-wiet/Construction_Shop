@@ -53,7 +53,7 @@ const products = [
     },
     {
         '_id': '5',
-        'name': 'rodos',
+        'name': 'Rodos',
         'image': '/images/rodos.jpg',
         'description':
         'Get a better handle on your games with this Logitech LIGHTSYNC gaming mouse. The six programmable buttons allow customization for a smooth playing experience',
