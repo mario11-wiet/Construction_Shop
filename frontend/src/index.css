@@ -1,0 +1,25 @@
+main{
+  min-height: 90vh;
+  margin: 0;
+}
+
+h3{
+  padding: 1rem 0;
+}
+
+.rating span{
+  margin:  0.1rem;
+
+}
+
+.text{
+  text-decoration: none;
+  color: #000;
+}
+
+.zooming:hover{
+  -webkit-transform: scale(1.05);
+  transform: scale(1.05);
+  -webkit-transition: .3s ease-in-out;
+  transition: 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
