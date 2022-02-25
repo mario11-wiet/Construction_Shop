@@ -41,7 +41,7 @@ products = [
     {
         '_id': '4',
         'name': 'Płyta Corso',
-        'image': '/images/płyta_corso.jpg',
+        'image': '/images/plyta_corso.jpg',
         'description':
         'The ultimate home entertainment center starts with PlayStation. Whether you are into gaming, HD movies, television, music',
         'brand': 'Kaczmarek',
