@@ -12,6 +12,9 @@ function CartScreen() {
     const params = useParams();
     let navigate = useNavigate();
 
+    const userlogin = useSelector(state => state.userLogin)
+    const {userInfo} = userlogin
+    
     const productId = params.id
     const location = useLocation()
     const qty = location.search ? Number(location.search.split('=')[1]) : 1
@@ -33,7 +36,7 @@ function CartScreen() {
     }
 
     const checkoutHandler = () => {
-        navigate('/login?redirect=shipping')
+        userInfo ? navigate(`/shipping`) : navigate(`/register`)
     }
 
     return (
